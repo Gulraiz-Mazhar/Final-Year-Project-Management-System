@@ -50,8 +50,6 @@ if (process.env.NODE_ENV !== 'production') {
     });
 }
 
-
-// All API routes are now cleanly handled by the central index router
 app.use('/api', routes);
 
 
