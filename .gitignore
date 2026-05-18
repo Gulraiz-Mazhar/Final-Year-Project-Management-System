@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+
+# Build outputs
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Cache
+.cache/
+*.cache
+
+# React / frontend build
+frontend/build/
+
+# Backend logs (if any)
+backend/logs/
+*.log
+
+# Misc
+gemini.text
+gemin.text
