@@ -31,8 +31,11 @@ const upload = multer({
             'application/pdf', 
             'application/zip', 
             'application/x-zip-compressed',
+            'application/octet-stream',     
             'image/jpeg', 
-            'image/png'
+            'image/png',
+            'text/plain',                   
+            'text/html'
         ];
         if (allowedMimes.includes(file.mimetype)) {
             cb(null, true);
